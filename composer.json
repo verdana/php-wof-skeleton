@@ -1,0 +1,27 @@
+{
+    "name": "verdana/php-wof-skeleton",
+    "description": "A simple boilerplate for php project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Verdana",
+            "email": "verdana.cn@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "monolog/monolog": "^1.23",
+        "php-di/php-di": "^6.0",
+        "relay/relay": "2.x@dev",
+        "zendframework/zend-diactoros": "^1.7",
+        "middlewares/fast-route": "^1.0",
+        "middlewares/request-handler": "^1.1",
+        "middlewares/error-handler": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpWof\\": "src/"
+        }
+    }
+}
